@@ -28,7 +28,7 @@ class Configuration implements ConfigurationInterface
             ->end()
             ->scalarNode('api_key')
             ->isRequired()
-            ->defaultNull()
+            ->defaultValue('123')
             ->end()
             ->end();
         return $treeBuilder;
