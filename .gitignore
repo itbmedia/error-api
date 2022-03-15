@@ -1,0 +1,26 @@
+
+###> symfony/framework-bundle ###
+/.env
+.DS_Store
+.php-cs-fixer.cache
+/public/bundles/
+/public/pdf/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> symfony/webpack-encore-pack ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-pack ###
+.vscode/launch.json

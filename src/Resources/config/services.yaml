@@ -1,0 +1,10 @@
+services:
+  error.service:
+    class: ITBMedia\ErrorApiBundle\Services\ErrorService
+    arguments: ["@service_container"]
+
+  kernel.listener.exception_listener:
+          class: ITBMedia\ErrorApiBundle\EventListener\ExceptionListener
+          arguments: ["@error.service"]
+          tags:
+          - { name: kernel.event_listener, event: kernel.exception, method: onKernalException, priority: -64 }
