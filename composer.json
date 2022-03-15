@@ -9,12 +9,12 @@
         }
     ],
     "require": {
-        "php": "^7.1.3",
-        "symfony/flex": "^1.1",
+        "php": ">=5.5",
+        "symfony/flex": "*",
         "symfony/framework-bundle": "*",
         "symfony/yaml": "*",
-        "symfony/http-kernel": "4.1.*",
-        "symfony/http-client": "^4.4"
+        "symfony/http-kernel": "*",
+        "symfony/http-client": ">=^4.4"
     },
     "autoload": {
         "psr-4": {
