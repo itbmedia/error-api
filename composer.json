@@ -1,6 +1,6 @@
 {
-    "name": "itbmedia/error-logger",
-    "description": "ITBMedia error bundle",
+    "name": "itbmedia/error-api",
+    "description": "ITBMedia error api bundle",
     "type": "symfony-bundle",
     "license": "proprietary",
     "authors": [
