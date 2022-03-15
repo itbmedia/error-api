@@ -3,27 +3,17 @@
     "description": "ITBMedia error api bundle",
     "type": "symfony-bundle",
     "license": "proprietary",
-    "authors": [
-        {
-            "name": "ITBMedia"
-        }
-    ],
     "require": {
         "php": ">=5.5",
-        "symfony/flex": "^1.1",
+        "symfony/flex": "*",
         "symfony/framework-bundle": "*",
         "symfony/yaml": "*",
-        "symfony/http-kernel": "4.1.*",
-        "symfony/http-client": "4.*"
+        "symfony/http-kernel": "*",
+        "symfony/http-client": "*"
     },
     "autoload": {
         "psr-4": {
             "ITBMedia\\ErrorApiBundle\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ITBMedia\\ErrorApiBundle\\Test\\": "tests/"
         }
     },
     "scripts": {
@@ -37,6 +27,5 @@
             "allow-contrib": false,
             "require": "4.1.*"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
