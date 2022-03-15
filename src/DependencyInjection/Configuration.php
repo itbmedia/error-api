@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
     function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('itb_media_api_error');
+        $rootNode = $treeBuilder->root('error_api');
         $rootNode->children()
             ->scalarNode('host')
             ->isRequired()

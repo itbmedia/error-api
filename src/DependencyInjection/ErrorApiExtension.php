@@ -48,6 +48,6 @@ class ErrorApiExtension extends Extension implements PrependExtensionInterface
 
     public function getAlias()
     {
-        return 'itb_media_api_error';
+        return 'error_api';
     }
 }
