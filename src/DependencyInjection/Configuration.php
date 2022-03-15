@@ -30,6 +30,10 @@ class Configuration implements ConfigurationInterface
             ->isRequired()
             ->defaultValue('123')
             ->end()
+            ->scalarNode('server_name')
+            ->isRequired()
+            ->defaultValue('whatever')
+            ->end()
             ->end();
         return $treeBuilder;
     }

@@ -44,6 +44,7 @@ class ErrorApiExtension extends Extension implements PrependExtensionInterface
         $container->setParameter('host', $config['host']);
         $container->setParameter('endpoint', $config['endpoint']);
         $container->setParameter('api_key', $config['api_key']);
+        $container->setParameter('server_name', $config['server_name']);
     }
 
     public function getAlias()
