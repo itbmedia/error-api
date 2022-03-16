@@ -22,5 +22,11 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
+    },
+    "minimum-stability": "alpha",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.6"
+        }
     }
 }
