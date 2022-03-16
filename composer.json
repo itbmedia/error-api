@@ -1,9 +1,11 @@
 {
     "name": "itbmedia/error-api",
-    "description": "ITBMedia error api bundle",
-    "type": "symfony-bundle",
+    "description": "Remote server error bundle",
+    "keywords": [
+        "api",
+        "error-handlig"
+    ],
     "homepage": "http://www.itbmedia.se",
-    "license": "proprietary",
     "require": {
         "php": ">=5.5",
         "symfony/flex": "*",
@@ -15,18 +17,6 @@
     "autoload": {
         "psr-4": {
             "ITBMedia\\ErrorApiBundle\\": "src/"
-        }
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        }
-    },
-    "minimum-stability": "alpha",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
         }
     }
 }
